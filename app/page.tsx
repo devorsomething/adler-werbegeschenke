@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 const PHONE = "+43 5574 123 456"; // Placeholder – bitte mit echter Nummer ersetzen
 
@@ -436,6 +437,7 @@ export default function Home() {
           </div>
         </div>
       </footer>
+      <WhatsAppButton phone="+43 5574 123 456" />
     </main>
   );
 }
